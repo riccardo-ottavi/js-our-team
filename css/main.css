@@ -4,12 +4,55 @@
     box-sizing: border-box;
 }
 
+h1 {
+    color: #E53170;
+    font-size: 35px;
+}
+
+body {
+    color: white;
+    
+}
+
+ section p:last-child {
+    color: #6eaae3;
+} 
+
+h3 {
+    font-size: 25px;
+    font-weight: 750;
+}
+
 header{
     text-align: center;
+    color: black;
+    width: 88%;
+    margin: 0 auto;
+}
+
+header * {
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 .team-container {
     display: grid;
     grid-template-columns: auto auto auto;
+    gap: 30px;
+    max-width: 450px;
 }
 
+section {
+    margin-left: 95px;
+}
+
+.card-text{
+    background-color: black;
+    min-width: 300px;
+    padding-left:10px;
+}
+
+img {
+    width: 125px;
+    width: 125px;
+}

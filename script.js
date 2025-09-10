@@ -46,7 +46,7 @@ for(let i = 0; i< teamMembers.length; i++) {
   console.log(member);
 
   cards += `
-  <div class ="team-card">
+  <div class ="team-card d-flex">
     <div class="card-image">
       <img src="${member.img}" alt="${member.name}"  />
     </div>
