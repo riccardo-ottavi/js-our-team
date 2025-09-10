@@ -15,7 +15,16 @@ header * {
     height: 125px;
 }
 
+.row {
+    margin-bottom: 50px;
+}
+
 .card img {
     max-height: 100%;
     max-width: 150px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
 }
