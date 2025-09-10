@@ -48,7 +48,7 @@ for(let i = 0; i< teamMembers.length; i++) {
   cards += `
   <div class ="team-card">
     <div class="card-image">
-      <img src="img/${member.img}" alt="${member.name}"  />
+      <img src="${member.img}" alt="${member.name}"  />
     </div>
     <div class="card-text">
       <h3>${member.name}</h3>
@@ -59,3 +59,5 @@ for(let i = 0; i< teamMembers.length; i++) {
     
  console.log(cards);
 }
+
+cardContainer.innerHTML = cards;
