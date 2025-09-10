@@ -23,11 +23,17 @@ h3 {
     font-weight: 750;
 }
 
+.main-box{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
 header{
     text-align: center;
     color: black;
-    width: 88%;
     margin: 0 auto;
+    width: 88%;
 }
 
 header * {
@@ -39,11 +45,11 @@ header * {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 30px;
-    max-width: 450px;
+    width: 450px;
 }
 
 section {
-    margin-left: 95px;
+    /*margin-left: 47px;*/
 }
 
 .card-text{
