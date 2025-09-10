@@ -36,5 +36,10 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+//seleziono i campi testuali delle card
+const cardText = document.querySelectorAll(".text-field");
 
-console.log("prova");
+console.log(cardText);
+for (let i = 0 ; i < cardText.length; i++) {
+  cardText[i].innerText = "prova";
+}
