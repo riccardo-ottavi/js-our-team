@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+
+
+header * {
+    text-align: center;
+}
+
 .col {
     width: 450px;
     height: 125px;
