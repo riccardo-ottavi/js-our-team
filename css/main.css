@@ -1,36 +1,17 @@
+/*regole generali*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1 {
-    color: #E53170;
-    font-size: 35px;
-}
 
 body {
     color: white;
     
 }
 
- section p:last-child {
-    color: #6eaae3;
-} 
-
-h3 {
-    font-size: 25px;
-    font-weight: 750;
-}
-
-.main-box{
-    width: 87%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
+/*regole header*/
 header{
     text-align: center;
     color: black;
@@ -41,22 +22,57 @@ header * {
     margin-bottom:50px;
 }
 
-.team-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 40px;
+h1 {
+    color: #E53170;
+    font-size: 35px;
 }
 
-section {
-    margin-left:25px;
-}
 
+/*regole layout cards*/
 .card-text{
     background-color: black;
     min-width: 270px;
     padding-left:10px;
 }
 
+.team-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+}
+
+.main-box{
+    width: 87%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    margin-left:25px;
+}
+
 img {
     width: 125px;
 }
+
+
+/*regole testo cards*/
+ section p:last-child {
+    color: #6eaae3;
+} 
+
+h3 {
+    font-size: 25px;
+    font-weight: 750;
+}
+
+
+
+
+
+
+
+
+
