@@ -24,16 +24,16 @@ h3 {
 }
 
 .main-box{
-    width: 90%;
+    width: 87%;
     margin: 0 auto;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header{
     text-align: center;
     color: black;
-    margin: 0 auto;
-    width: 88%;
 }
 
 header * {
@@ -44,21 +44,19 @@ header * {
 .team-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 30px;
-    width: 450px;
+    gap: 40px;
 }
 
 section {
-    /*margin-left: 47px;*/
+    margin-left:25px;
 }
 
 .card-text{
     background-color: black;
-    min-width: 300px;
+    min-width: 270px;
     padding-left:10px;
 }
 
 img {
-    width: 125px;
     width: 125px;
 }
