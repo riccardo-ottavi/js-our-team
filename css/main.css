@@ -4,25 +4,12 @@
     box-sizing: border-box;
 }
 
-header * {
+header{
     text-align: center;
 }
 
-.col {
-    width: 450px;
-    height: 125px;
+.team-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
-.row {
-    margin-bottom: 50px;
-}
-
-.card img {
-    max-height: 100%;
-    max-width: 150px;
-}
-
-.card {
-    display: flex;
-    flex-direction: row;
-}
