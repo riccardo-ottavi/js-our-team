@@ -39,8 +39,11 @@ const teamMembers = [
 //seleziono i campi testuali delle card
 const cardContainer = document.querySelector(".team-container");
 
+
+//inizializzo una stringa 
 let cards= "";
 
+//popolo la stringa con html+template literals
 for(let i = 0; i< teamMembers.length; i++) {
   const member = teamMembers[i];
   console.log(member);
@@ -60,4 +63,6 @@ for(let i = 0; i< teamMembers.length; i++) {
  console.log(cards);
 }
 
+
+//mando in pagina le cards
 cardContainer.innerHTML = cards;
