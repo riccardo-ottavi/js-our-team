@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.col {
+    width: 450px;
+    height: 125px;
+}
+
+.card img {
+    max-height: 100%;
+    max-width: 150px;
+}
