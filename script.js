@@ -37,15 +37,25 @@ const teamMembers = [
   }
 ];
 //seleziono i campi testuali delle card
-const cardArea = document.querySelectorAll(".card");
+const cardContainer = document.querySelector(".team-container");
 
-cardArea.forEach (card => {
-  for (let i = 0; i < teamMembers.length; i++) {
-      card.innerHTML = `<img src="img/female1.png" alt="">
-                        <div class="text-field-area">
-                            <p class="text-field"></p>
-                            <p class="text-field"></p>
-                            <p class="text-field"></p>
-                        </div>`
-  }
-})
+let cards= "";
+
+for(let i = 0; i< teamMembers.length; i++) {
+  const member = teamMembers[i];
+  console.log(member);
+
+  cards += `
+  <div class ="team-card">
+    <div class="card-image">
+      <img src="img/${member.img}" alt="${member.name}"  />
+    </div>
+    <div class="card-text">
+      <h3>${member.name}</h3>
+      <p>${member.role}</p>
+      <p>${member.email}</p>
+    </div>
+  </div>`;    
+    
+ console.log(cards);
+}
